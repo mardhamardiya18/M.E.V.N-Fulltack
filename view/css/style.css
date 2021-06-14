@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Poppins:wght@300;400;600&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+}
+/* start navbar */
+.navbar .navbar-brand{
+    font-family: 'Aladin',sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.navbar a img{
+    position: absolute;
+    top: 13px;
+    left: 15.5%;
+}
+.main-page h3{
+    text-transform: uppercase;
+    font-family: 'Aladin',sans-serif;
+    font-size: 3em;
+}
+.main-page hr{
+    border: 3px solid rgb(185, 0, 0);
+    width: 20%;
+}
+h3,h5,p {
+    font-size: 1.4em;
+}
+
+.col-hero{
+   
+    margin-right: 0px;
+}
+/* end navbar */
+/* start section event */
+.section-event{
+    margin-top: 100px;
+}
+/* end event */
+
+/* start section product */
+.section-product{
+    margin-top: 100px;
+}
+.buku{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buku .itembox{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+.buku .itembox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.itembox .aksi-buku{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.52);
+    transform: translate(-50%, -50%); 
+    visibility: hidden;
+    transition: all 0.1s ease;
+}
+.itembox .aksi-buku a{
+    margin: 7px auto;
+    display: block;
+    width: 50%;
+    
+
+}
+.row ul li.active{
+    background-color: #ffff;
+    color: rgb(2, 135, 197) ;
+    border: 2px solid rgb(2, 135, 197);
+    box-shadow: 1px 1px 10px 0.6px rgb(74, 184, 235);
+}
+.row ul{
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.row ul li {
+    list-style: none;
+    background: rgb(199, 50, 30);
+    border-radius: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: #ffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 10px;
+}
+.itembox .aksi-buku{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.52);
+    transform: translate(-50%, -50%); 
+    visibility: hidden;
+    transition: all 0.1s ease;
+}
+.itembox .aksi-buku a{
+    margin: 7px auto;
+    display: block;
+    width: 50%;
+    
+
+}
+.burger:hover .aksi-buku{
+    visibility: visible
+}
+.pizza:hover .aksi-buku{
+    visibility: visible
+}.spaghetti:hover .aksi-buku{
+    visibility: visible
+}.stick:hover .aksi-buku{
+    visibility: visible
+}.hotdogs:hover .aksi-buku{
+    visibility: visible
+}
+
+/* end section product */

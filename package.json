@@ -1,0 +1,17 @@
+{
+  "name": "uas_mevn",
+  "version": "1.0.0",
+  "description": "project UTS MEVN",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Mardha Mardiya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7"
+  }
+}
